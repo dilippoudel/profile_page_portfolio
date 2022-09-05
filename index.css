@@ -1,0 +1,71 @@
+body {
+  margin: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+body p {
+  color: rgba(104, 100, 100, 0.77);
+  margin-left: 18px;
+}
+.applicant {
+  font-size: 24px;
+  margin-top: 24px;
+}
+.heading {
+  margin-left: 18px;
+  margin-top: 0px;
+  color: rgba(13, 132, 223, 0.87);
+  text-transform: uppercase;
+}
+/* Experience and Education section --- same styling */
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin: 48px;
+}
+.first_exp {
+  display: flex;
+}
+
+.job_title {
+  flex-grow: 1;
+}
+
+.job_title p {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+ul > li {
+  color: rgba(104, 100, 100, 0.77);
+}
+
+.title {
+  margin: 0 0;
+}
+/* skill section */
+.skill {
+  display: flex;
+}
+.skill div {
+  flex-grow: 12;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.highlight {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(50, 173, 203);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dim {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(142, 198, 212);
+  border-radius: 50%;
+  display: inline-block;
+}
+span {
+  margin-left: 18px;
+}
